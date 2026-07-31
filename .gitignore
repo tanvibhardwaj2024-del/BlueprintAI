@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Python Cache
+.pytest_cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Generated Files
+generated_project/
+generated_project.zip
+
+# Logs
+*.log
