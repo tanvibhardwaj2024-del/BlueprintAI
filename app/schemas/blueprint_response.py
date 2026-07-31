@@ -1,3 +1,4 @@
+from typing import List
 from pydantic import BaseModel
 
 from app.schemas.tech_stack_schema import TechStack
@@ -5,26 +6,20 @@ from app.schemas.database_table_schema import DatabaseTable
 from app.schemas.api_endpoint_schema import ApiEndpoint
 from app.schemas.sql_schema import SQLSchema
 
-
 class BlueprintResponse(BaseModel):
     project_summary: str
 
-    functional_requirements: list[str]
-
-    non_functional_requirements: list[str]
+    functional_requirements: List[str]
+    non_functional_requirements: List[str]
 
     tech_stack: TechStack
 
-    database_tables: list[DatabaseTable]
+    database_tables: List[DatabaseTable]
 
-    api_endpoints: list[ApiEndpoint]
+    api_endpoints: List[ApiEndpoint]
 
-    sql_schema: list[SQLSchema]
+    sql_schema: List[SQLSchema]
 
-    folder_structure: list[str]
+    folder_structure: List[str]
 
-    file_structure: list[str]
-
-    modules: list[str]
-
-    zip_file: str
+    modules: List[str]
