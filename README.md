@@ -1,81 +1,106 @@
 # 🚀 BlueprintAI
 
-> Transform software ideas into production-ready project blueprints using AI.
+> **AI-Powered Software Requirement to Complete Project Blueprint Generator**
 
-BlueprintAI is an AI-powered application that converts software requirements into a complete development blueprint. It automatically generates architecture, database schema, REST APIs, folder structure, modules, boilerplate code, and exports everything as a downloadable ZIP package.
+BlueprintAI converts a plain-English software idea into a structured starter project by automatically generating:
+
+- 📋 Project Summary
+- ⚙️ Functional & Non-Functional Requirements
+- 🏗️ Software Architecture
+- 🗄️ Database Schema
+- 🔗 REST API Endpoints
+- 📁 Folder Structure
+- 📄 File Structure
+- 💻 AI-Generated Starter Code
+- 📦 Downloadable ZIP Project
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 🧠 AI-powered software blueprint generation
-- 📄 Project summary generation
-- 🗂️ Folder & file structure generation
-- 🛢️ Database schema generation
-- 🔗 REST API endpoint generation
-- ⚙️ Tech stack recommendation
-- 📦 Automatic ZIP export
-- 💻 Modern React frontend
+- 🤖 AI-powered blueprint generation
+- 📂 Automatic folder & file structure creation
+- 🗄️ Database schema generation
+- 🔗 REST API generation
+- 💻 Starter backend/frontend code generation
+- 📦 One-click ZIP download
 - ⚡ FastAPI backend
-- 🤖 Ollama + Qwen AI integration
+- 🎨 React frontend
+- 🧠 Powered by Ollama + Qwen 2.5
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
-- React.js
-- Vite
-- Axios
-- CSS
-
-### Backend
-- FastAPI
-- Python
-- Pydantic
-
-### AI
-- Ollama
-- Qwen2.5
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend |
+| FastAPI | REST API |
+| React | Frontend |
+| Ollama | Local LLM Runtime |
+| Qwen 2.5 | AI Model |
+| PostgreSQL | Database Design |
+| Docker | Deployment Blueprint |
 
 ---
 
-## 📂 Project Structure
+# 📸 Project Demo
 
-```text
-BlueprintAI/
-│
-├── app/
-│   ├── prompts/
-│   ├── schemas/
-│   └── services/
-│
-├── frontend/
-│
-├── main.py
-├── requirements.txt
-└── README.md
-```
+## 🏠 Home Page
+
+![Home](assets/home.png.png)
 
 ---
 
-## 🚀 Getting Started
+## 🤖 AI Generating Blueprint
 
-### Clone Repository
+![Loading](assets/loading.png.png)
+
+---
+
+## ✅ Blueprint Generated Successfully
+
+![Success](assets/Success.png.png)
+
+---
+
+## 📋 Generated Blueprint
+
+![Blueprint](assets/Generated%20Blueprint.png.png)
+
+---
+
+## 📦 Download Generated ZIP
+
+![ZIP](assets/ZIP%20Download.png.png)
+
+---
+
+## 📁 Extracted Project
+
+![Extracted](assets/Extracted%20Project.png.png)
+
+---
+
+## 💻 AI Generated Code
+
+![Code](assets/Generated%20Code.png.png)
+
+---
+
+# ⚙️ Installation
 
 ```bash
 git clone https://github.com/tanvibhardwaj2024-del/BlueprintAI.git
-```
 
-### Backend
+cd BlueprintAI
 
-```bash
 pip install -r requirements.txt
 
 uvicorn main:app --reload
 ```
 
-### Frontend
+Frontend
 
 ```bash
 cd frontend
@@ -85,41 +110,77 @@ npm install
 npm run dev
 ```
 
-### AI Model
+---
 
-Install Ollama and pull the model:
+# 🚀 How It Works
 
-```bash
-ollama pull qwen2.5:7b
+```
+User Requirement
+        │
+        ▼
+React Frontend
+        │
+        ▼
+FastAPI Backend
+        │
+        ▼
+Ollama + Qwen 2.5
+        │
+        ▼
+Blueprint Generation
+        │
+        ▼
+Folder Structure
+        │
+        ▼
+Database Schema
+        │
+        ▼
+REST APIs
+        │
+        ▼
+Starter Code
+        │
+        ▼
+ZIP Export
 ```
 
-Start Ollama before running the backend.
+---
+
+# 📂 Project Structure
+
+```
+BlueprintAI
+│
+├── app
+│   ├── prompts
+│   ├── schemas
+│   └── services
+│
+├── frontend
+│
+├── assets
+│
+├── main.py
+│
+└── requirements.txt
+```
 
 ---
 
-## 📸 Screenshots
+# 🔮 Future Improvements
 
-> Screenshots will be added soon.
-
----
-
-## 🔮 Future Improvements
-
-- User Authentication
-- Cloud Deployment
-- Multiple AI Model Support
-- Docker Support
-- Project Templates
-- Team Collaboration
+- Cloud deployment
+- Multi-model AI support
+- Authentication
+- Microservice generation
+- CI/CD pipeline generation
+- Kubernetes deployment templates
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Tanvi Bhardwaj**
 
-B.Tech Artificial Intelligence & Machine Learning
-
----
-
-⭐ If you like this project, consider giving it a star!
+⭐ If you like this project, don't forget to star the repository!
